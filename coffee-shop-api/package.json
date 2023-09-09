@@ -72,7 +72,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "coffee-shop-api/node_modules/cz-conventional-changelog"
     }
   }
 }
