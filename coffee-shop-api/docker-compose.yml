@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - 3000:3000
+
+  bd:
+    image: mysql:8.1.0
+    restart: always
+    env_file:
+      - .env
