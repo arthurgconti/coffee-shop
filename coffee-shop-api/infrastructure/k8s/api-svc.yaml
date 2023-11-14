@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: coffe-shop-api
+spec:
+  selector:
+    app: coffe-shop-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: NodePort
+  
